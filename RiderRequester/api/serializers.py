@@ -18,7 +18,8 @@ class RequesterSerializer(serializers.HyperlinkedModelSerializer):
         fields="__all__"
 
 
-class AssetSerializer(serializers.HyperlinkedModelSerializer):   
+class AssetSerializer(serializers.HyperlinkedModelSerializer):
+    id=serializers.ReadOnlyField()    
     class Meta:
         model=Assets
         fields="__all__"
