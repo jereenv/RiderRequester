@@ -24,12 +24,9 @@ Requester should be able to request an asset transport
 Valid asset types are LAPTOP, TRAVEL_BAG, PACKAGE
 Valid sensitivities are HIGHLY_SENSITIVE, SENSITIVE, NORMAL
 	
-	Ref: Asset Transportation Request
 
 Write an API to share the travel info of the Rider by using the reference screen mentioned below and return valid response (For Rider)
 Valid travel mediums are BUS, CAR, TRAIN
-
-	Ref: Share Travel Info
 
 Write an API to get asset transport requests created by the Requester following the reference screen and get the response details as shown in the screen.(For Requester)
 This API should also support
@@ -46,7 +43,6 @@ When the request’s end datetime is completed then the status should be Expired
 You can ignore the accepted person details column
 Possible statuses are Expired and Pending. Ignore the “Confirm” status shown in the reference image.
 
-	Ref: My Asset Transportation Requests
 
 Write an API to get the matching rides by Riders based on the requests applied by the Requester. The API should support pagination.
 
@@ -59,7 +55,6 @@ Note:
 Here NO.OF PEOPLE in the reference screen means NO.OF ASSETS
 The initial status of the matched Asset Transportation request should be NOT_APPLIED & gets changed to APPLIED once the requester applies for it
 
-	Ref: Matched Asset Transportation Rides
 
  As a Requester, I should be able to apply for the travel info shared by a Rider. Once applied the status should be shown as applied in matched rides api. 
 
