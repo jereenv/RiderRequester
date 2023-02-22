@@ -1,7 +1,7 @@
 # RiderRequester
  Django Rider Requester 
  
-	For the below problem statement, I implemented the backend structure for it
+	For the below problem statement, I implemented the backend structure
 	
 *** Project Description ***
 
